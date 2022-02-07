@@ -4,7 +4,10 @@
 
 .bg-color-name-title {
     background-color: #69838f;
+}
 
+.bg-color-three-reasons {
+    background-color: white;
 }
 
 .ui-menu-color-home {
@@ -46,6 +49,23 @@ h4 {
     display: inline-block;
 }
 
+.row-table {
+    display: table;
+
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0, 30px, 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
 
 /* ------------------------------------Heading */
 
@@ -64,25 +84,9 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
-    /*transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;*/
-
-
-    /* animates zoom effect on logo image*/
-    animation-name: logo-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: backwards;
-}
-
-/* creates the level of zoom for logo image */
-@keyframes logo-zoom {
-    from{
-        transform: scale(1.1);
-    }
-    to{
-        transform: scale(1);
-    }
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .name {
