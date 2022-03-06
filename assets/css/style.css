@@ -45,6 +45,22 @@
     background-color: white;
 }
 
+.bg-color-conferences {
+    background-color: #f4f4f4;
+}
+
+.bg-color-groups {
+    background-color: #ffffff;
+}
+
+.ui-menu-color-github {
+    background-color: #6a6d84;
+}
+
+.ui-menu-color-interests {
+    background-color: #d7c7b1;
+}
+
 
 /* ------------------------------------Special paddings/margins/text */
 
@@ -378,4 +394,8 @@ button[type="submit"] {
         margin: 0 auto;
         max-width: 50%;
     }
+}
+
+div#map {
+    min-height: 360px;
 }
